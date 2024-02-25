@@ -1,0 +1,36 @@
+.editor-box{
+    width: 50%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    background-color: #0e0e24b0; 
+    align-items: center;
+    overflow: hidden; 
+}
+
+.editor-title{
+   color: #fff;
+   letter-spacing: 1px;
+}
+
+.textArea{
+    width: 80%; 
+    height: 75%;  
+    border: none;
+    background-color: #0e0e24; 
+    color: #d8cdcd;
+    padding: 30px;
+    font-size: 18px;  
+    scrollbar-width:thin;  
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px){
+    .editor-box{
+      width: 100%;
+      align-items: center;
+    }
+
+    .textArea{ 
+      width: 70%;    
+    }
+  }
