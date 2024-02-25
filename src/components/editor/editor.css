@@ -1,6 +1,5 @@
 .editor-box{
-    width: 50%;  
-    height: 80%;
+    width: 50%;   
     display: flex;
     flex-direction: column;
     background-color: #0e0e24b0; 
